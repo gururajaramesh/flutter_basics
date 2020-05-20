@@ -26,9 +26,7 @@ class Home extends StatelessWidget {
         //Images can be used in 2 different ways in flutter apps
         //1.Network Image - Grab a image from the web
         //2.Asset Image - Use a image from the source files(local image)
-        child: Image(
-          image: AssetImage('assets/indian_flag.jpg'),
-        ),
+        child: Image.asset('assets/spacex.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
