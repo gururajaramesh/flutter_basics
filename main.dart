@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
         //1.Network Image - Grab a image from the web
         //2.Asset Image - Use a image from the source files(local image)
         child: Image(
-          image: NetworkImage('https://images.unsplash.com/photo-1502318217862-aa4e294ba657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1258&q=80'),
+          image: AssetImage('assets/indian_flag.jpg'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
