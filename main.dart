@@ -23,15 +23,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          'Hello anandhi',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower',
-          ),
+        //Images can be used in 2 different ways in flutter apps
+        //1.Network Image - Grab a image from the web
+        //2.Asset Image - Use a image from the source files(local image)
+        child: Image(
+          image: NetworkImage('https://images.unsplash.com/photo-1502318217862-aa4e294ba657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1258&q=80'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
