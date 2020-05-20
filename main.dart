@@ -22,21 +22,17 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        //Images can be used in 2 different ways in flutter apps
-        //1.Network Image - Grab a image from the web
-        //2.Asset Image - Use a image from the source files(local image)
-        child: IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.alternate_email),
-          color: Colors.amber,
-        ),
+      body: Container(
+        padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+        margin: EdgeInsets.all(30.0),
+        color: Colors.grey[400],
+        child: Text('hello'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('click'),
         backgroundColor: Colors.red[600],
       ),
-    ); 
+    );
   }
 }
